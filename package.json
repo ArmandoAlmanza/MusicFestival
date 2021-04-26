@@ -1,0 +1,23 @@
+{
+  "name": "musicfestival",
+  "version": "1.0.0",
+  "description": "Test of web using SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArmandoAlmanza/MusicFestival.git"
+  },
+  "keywords": [
+    "SASS",
+    "node"
+  ],
+  "author": "Armando Almanza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArmandoAlmanza/MusicFestival/issues"
+  },
+  "homepage": "https://github.com/ArmandoAlmanza/MusicFestival#readme"
+}
