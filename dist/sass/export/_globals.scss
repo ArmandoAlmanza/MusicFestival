@@ -7,21 +7,26 @@ html{
 }
 
 body{
-    font-family: $mainFont;
     font-size: 1.6rem;
+    font-family: $secondFont;
 }
 p{
     font-size: 2rem;
     color: $black;
 }
-
+h1,h2,h3{
+    margin: 0;
+}
 h1{
+    font-family: $mainFont;
     font-size: 4rem;
 }
 h2{
+    font-family: $mainFont;
     font-size: 3.6rem;
 }
 h3{
+    font-family: $mainFont;
     font-size: 3rem;
 }
 
