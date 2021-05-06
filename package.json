@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/ArmandoAlmanza/MusicFestival/issues"
   },
-  "homepage": "https://github.com/ArmandoAlmanza/MusicFestival#readme"
+  "homepage": "https://github.com/ArmandoAlmanza/MusicFestival#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-webp": "^4.0.1"
+  }
 }
