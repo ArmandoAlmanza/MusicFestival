@@ -1,10 +1,14 @@
+// Normalize & google fonts
 @import './export/normalize';
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Tajawal:wght@400;700;900&display=swap');
+// Globals
 @import './export/variables';
 @import './export/mixins';
 @import './export/globals';
-
+@import './export/utilities';
+// Content
 @import './layout/header';
 @import './layout/video';
 @import './layout/festival';
+@import './layout/lineup';
 
