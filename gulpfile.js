@@ -2,10 +2,12 @@ const { series, src, dest, watch } = require("gulp");
 const sass = require("gulp-sass");
 const imagemin = require("gulp-imagemin");
 const webp = require("gulp-webp");
+const concat = require('gulp-concat');
 
 const paths = {
    images: "./assets/img",
    scss: "./assets/sass/**/*.scss",
+   js: './assets/js**/*.js'
 };
 
 function css() {
@@ -18,8 +20,15 @@ function css() {
       .pipe(dest("./build/css"));
 }
 
+function js(){
+   return src( paths.js)
+   .pipe( concat('index.js') )
+   .pipe( dest('./build/js') )
+}
+
 function watchFiles() {
    watch(paths.scss, css);
+   watch(paths.js, js)
 }
 
 function images() {
@@ -30,4 +39,4 @@ function webPV() {
    return src(paths.images).pipe(webp()).pipe(dest("./build/img"));
 }
 
-exports.default = series(css, images, webPV, watchFiles);
+exports.default = series(css, images, js,webPV, watchFiles);
