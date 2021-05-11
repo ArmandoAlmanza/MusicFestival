@@ -53,11 +53,21 @@ const showImage = (e) => {
 };
 document.addEventListener("DOMContentLoaded", () => {
     scrollNav();
+    navblock();
 });
 
-const navblock = () =>{
-	
-}
+const navblock = () => {
+    const navbar = document.querySelector(".header");
+    const observer = new IntersectionObserver((entries) => {
+        if (entries[0].isIntersecting) {
+            navbar.classList.remove("block");
+        } else {
+            navbar.classList.add("block");
+        }
+    });
+    // Elemento a observar
+    observer.observe(document.querySelector(".about-festival"));
+};
 
 const scrollNav = () => {
     const links = document.querySelectorAll(".navbar a");
@@ -67,9 +77,9 @@ const scrollNav = () => {
             const section = document.querySelector(
                 e.target.attributes.href.value
             );
-			section.scrollIntoView({
-				behavior: 'smooth'
-			});
+            section.scrollIntoView({
+                behavior: "smooth",
+            });
         });
     });
 };
