@@ -1,118 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="./build/css/app.css" />
-      <title>Music Festival</title>
-   </head>
-   <body>
-      <header class="header">
-         <div class="container header-content">
-            <h1>Rock & Indie Festival</h1>
-            <nav class="navbar">
-               <a href="#">Line up</a>
-               <a href="#">Gallery</a>
-               <a href="#">Tickets</a>
-            </nav>
-         </div>
-      </header>
-
-      <div class="video">
-         <div class="overlay">
-            <div class="container video-content">
-               <h2>
-                  Rock & Indie Festival
-                  <span>May 2021, Mexico City, Mexico</span>
-               </h2>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./build/css/app.css" />
+        <title>Music Festival</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container header-content">
+                <h1>Rock & Indie Festival</h1>
+                <nav class="navbar">
+                    <a href="#lineup">Line up</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#tickets">Tickets</a>
+                </nav>
             </div>
-         </div>
-         <video autoplay muted loop>
-            <source src="./build/video/concierto.mp4" type="video/mp4" />
-            <source src="./build/video/concierto.ogg" type="video/ogg" />
-            <source src="./build/video/concierto.webm" type="video/webm" />
-         </video>
-      </div>
+        </header>
 
-      <div class="about-festival container">
-         <div class="image">
-            <img src="./build/img/imagen_vocalista.jpg" alt="vocalist img" />
-         </div>
-         <div class="s">
-            <h2>Rock & Indie Festival</h2>
-            <p class="date">Julio 2021, Mexico City, Mexico</p>
-            <p class="text">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit.
-               Veritatis ab rem quia labore expedita magni at quaerat tempore.
-               Quo odio ullam sunt dolorem maxime minus deserunt rem animi
-               facere illum?
-            </p>
-         </div>
-      </div>
-
-      <section class="lineup">
-         <h3>Line up</h3>
-         <p class="day">Viernes 21</p>
-         <div class="container scenario-container">
-            <div class="scenario rock bg-yellow">
-               <p class="escenario-name">Escenario Rock</p>
-               <ul class="calendar">
-                  <li>24:00 | <span>Metallica</span></li>
-                  <li>22:00 | <span>Molotov</span></li>
-                  <li>20:00 | <span>Shinedown</span></li>
-                  <li>18:00 | <span>Bring me the Horizon</span></li>
-                  <li>17:00 | <span>Bullet of my Valentine</span></li>
-                  <li>16:00 | <span>Panic! At The Disco</span></li>
-               </ul>
+        <div class="video">
+            <div class="overlay">
+                <div class="container video-content">
+                    <h2>
+                        Rock & Indie Festival
+                        <span>May 2021, Mexico City, Mexico</span>
+                    </h2>
+                </div>
             </div>
-            <div class="scenario indie bg-green">
-               <p class="escenario-name">Escenario Indie</p>
-               <ul class="calendar">
-                  <li>24:00 | <span>Rufus t Firefly</span></li>
-                  <li>22:00 | <span>Molinette Cinema</span></li>
-                  <li>20:00 | <span>Son lux</span></li>
-                  <li>18:00 | <span>Flecha al aire</span></li>
-                  <li>17:00 | <span>Sputnik</span></li>
-                  <li>16:00 | <span>Lola Club</span></li>
-               </ul>
-            </div>
-         </div>
-         <p class="day">Viernes 22</p>
-         <div class="container scenario-container">
-            <div class="scenario rock bg-green">
-               <p class="escenario-name">Escenario Rock</p>
-               <ul class="calendar">
-                  <li>24:00 | <span>Metallica</span></li>
-                  <li>22:00 | <span>Molotov</span></li>
-                  <li>20:00 | <span>Shinedown</span></li>
-                  <li>18:00 | <span>Bring me the Horizon</span></li>
-                  <li>17:00 | <span>Bullet of my Valentine</span></li>
-                  <li>16:00 | <span>Panic! At The Disco</span></li>
-               </ul>
-            </div>
-            <div class="scenario indie bg-yellow">
-               <p class="escenario-name">Escenario Indie</p>
-               <ul class="calendar">
-                  <li>24:00 | <span>Rufus t Firefly</span></li>
-                  <li>22:00 | <span>Molinette Cinema</span></li>
-                  <li>20:00 | <span>Son lux</span></li>
-                  <li>18:00 | <span>Flecha al aire</span></li>
-                  <li>17:00 | <span>Sputnik</span></li>
-                  <li>16:00 | <span>Lola Club</span></li>
-               </ul>
-            </div>
-         </div>
-      </section>
+            <video autoplay muted loop>
+                <source src="./build/video/concierto.mp4" type="video/mp4" />
+                <source src="./build/video/concierto.ogg" type="video/ogg" />
+                <source src="./build/video/concierto.webm" type="video/webm" />
+            </video>
+        </div>
 
-      <section class="gallery container">
-         <h3>Gallery</h3>
-         <ul class="image-gallery">
-           
-         </ul>
-      </section>
+        <div class="about-festival container">
+            <div class="image">
+                <img
+                    src="./build/img/imagen_vocalista.jpg"
+                    alt="vocalist img"
+                />
+            </div>
+            <div class="s">
+                <h2>Rock & Indie Festival</h2>
+                <p class="date">Julio 2021, Mexico City, Mexico</p>
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Veritatis ab rem quia labore expedita magni at quaerat
+                    tempore. Quo odio ullam sunt dolorem maxime minus deserunt
+                    rem animi facere illum?
+                </p>
+            </div>
+        </div>
 
+        <section id="lineup" class="lineup">
+            <h3>Line up</h3>
+            <p class="day">Viernes 21</p>
+            <div class="container scenario-container">
+                <div class="scenario rock bg-yellow">
+                    <p class="escenario-name">Escenario Rock</p>
+                    <ul class="calendar">
+                        <li>24:00 | <span>Metallica</span></li>
+                        <li>22:00 | <span>Molotov</span></li>
+                        <li>20:00 | <span>Shinedown</span></li>
+                        <li>18:00 | <span>Bring me the Horizon</span></li>
+                        <li>17:00 | <span>Bullet of my Valentine</span></li>
+                        <li>16:00 | <span>Panic! At The Disco</span></li>
+                    </ul>
+                </div>
+                <div class="scenario indie bg-green">
+                    <p class="escenario-name">Escenario Indie</p>
+                    <ul class="calendar">
+                        <li>24:00 | <span>Rufus t Firefly</span></li>
+                        <li>22:00 | <span>Molinette Cinema</span></li>
+                        <li>20:00 | <span>Son lux</span></li>
+                        <li>18:00 | <span>Flecha al aire</span></li>
+                        <li>17:00 | <span>Sputnik</span></li>
+                        <li>16:00 | <span>Lola Club</span></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="day">Viernes 22</p>
+            <div class="container scenario-container">
+                <div class="scenario rock bg-green">
+                    <p class="escenario-name">Escenario Rock</p>
+                    <ul class="calendar">
+                        <li>24:00 | <span>Metallica</span></li>
+                        <li>22:00 | <span>Molotov</span></li>
+                        <li>20:00 | <span>Shinedown</span></li>
+                        <li>18:00 | <span>Bring me the Horizon</span></li>
+                        <li>17:00 | <span>Bullet of my Valentine</span></li>
+                        <li>16:00 | <span>Panic! At The Disco</span></li>
+                    </ul>
+                </div>
+                <div class="scenario indie bg-yellow">
+                    <p class="escenario-name">Escenario Indie</p>
+                    <ul class="calendar">
+                        <li>24:00 | <span>Rufus t Firefly</span></li>
+                        <li>22:00 | <span>Molinette Cinema</span></li>
+                        <li>20:00 | <span>Son lux</span></li>
+                        <li>18:00 | <span>Flecha al aire</span></li>
+                        <li>17:00 | <span>Sputnik</span></li>
+                        <li>16:00 | <span>Lola Club</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-      <script src="./build/js/index.js"></script>
-   </body>
+        <section id="gallery" class="gallery container">
+            <h3>Gallery</h3>
+            <ul class="image-gallery"></ul>
+        </section>
+
+        <section id="tickets" class="tickets bg-green">
+            <h3>Tickets</h3>
+            <div class="ticket-container container">
+                <div class="basic plan">
+                    <p>Ticket for 1 day</p>
+                    <table class="pass">
+                        <thead>
+                            <tr>
+                                <th>Include</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>All Scenarios access</td>
+                            </tr>
+                            <tr>
+                                <td>Food and drinks</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>100$</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                <div class="premium plan">
+                    <p>Ticker for 2 days</p>
+                    <table class="pass">
+                        <thead>
+                            <tr>
+                                <th>Include</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>All Scenarios access</td>
+                            </tr>
+                            <tr>
+                                <td>Food and drinks</td>
+                            </tr>
+                            <tr>
+                                <td>Shirt of the event</td>
+                            </tr>
+                            <tr>
+                                <td>VIP access</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>180$</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <footer class="site-footer">
+            <p>Roxk & indie Festival. All rights reserve</p>
+        </footer>
+
+        <script src="./build/js/index.js"></script>
+    </body>
 </html>

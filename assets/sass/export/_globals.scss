@@ -9,6 +9,9 @@ html{
 body{
     font-size: 1.6rem;
     font-family: $secondFont;
+    &.static{
+        overflow: hidden;
+    }
 }
 p{
     font-size: 2rem;
